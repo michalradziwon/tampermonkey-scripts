@@ -12,6 +12,6 @@
 console.log("STARTING_ ");
 
 document.addEventListener("mouseup", function (e) {
-  console.log(e);
-  e.stopPropagation();
+    console.log("Stoping mouseup propagation for the event:", e);
+    e.stopPropagation();
 }, true);
